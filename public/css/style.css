@@ -1,0 +1,6 @@
+@import url("../plugins/font-awesome-4.7.0/css/font-awesome.min.css");
+@import url("../plugins/bootstrap.min.css");
+@import url("../plugins/bootstrap-select.min.css");
+body{
+    background-color: red;
+}
