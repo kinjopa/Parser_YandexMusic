@@ -24,3 +24,21 @@ php artisan migrate`
 
 Для просмотра записей переходим в pgadmin - http://localhost:5050/ выполняем конект к базе данных и смотрим таблицы "Yandex_Artists" и "YandexArtists_Tracks"
 # Пример использования
+Берем url треков артиста, допустим: https://music.yandex.ru/artist/9262/tracks
+подставляем в $url 
+
+![alt text](image_git/1.PNG)
+
+Далее заходим на страницу http://localhost:8081/, если нет ошибок видим следующее:
+
+![alt text](image_git/2.PNG)
+
+После, для проверки данных заходим на страницу   http://localhost:5050/
+По стандарту логин - admin@pgadmin.com пароль - 123
+Таблица артистов:
+
+![alt text](image_git/3.PNG)
+
+Таблица треков:
+
+![alt text](image_git/4.PNG)
