@@ -23,8 +23,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        //Url
-        $url = 'https://music.yandex.ru/artist/79215/tracks';
+        $url = 'https://music.yandex.ru/artist/9262/tracks';
 
         $parser = new YandexMusicParser($url);
         $result = $parser->TranslateTracks();
